@@ -1,9 +1,21 @@
 import './App.css';
-import Hero from './components/Hero';
+import BackToTop from './common/BackToTop';
+import Addition from './components/Addition';
+import EventsEinsenden from './components/EventsEinsenden';
+import Star from './components/Star';
+import Table from './components/Table';
 
 function App() {
   return (
-<Hero/>
+    <>
+      <>
+        <EventsEinsenden />
+        <Table />
+        <Addition />
+        <Star/>
+      </>
+      <BackToTop/>
+    </>
   );
 }
 

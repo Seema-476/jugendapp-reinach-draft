@@ -1,0 +1,9 @@
+body{
+    font-family: 'open sans' !important;
+}
+select{
+    -webkit-appearance: none;
+    background-image: url('../public/assets/images/svg/select-arrow.svg');
+    background-repeat: no-repeat;
+    background-position: right;
+}
