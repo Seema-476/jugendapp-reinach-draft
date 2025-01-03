@@ -5,5 +5,5 @@ select{
     -webkit-appearance: none;
     background-image: url('../public/assets/images/svg/select-arrow.svg');
     background-repeat: no-repeat;
-    background-position: right;
+    background-position: right 16px center;
 }

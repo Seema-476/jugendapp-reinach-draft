@@ -56,19 +56,17 @@ const EventsEinsenden = () => {
                             <input id="imageInput" type="file" accept="image/*" style={{ display: "none" }} onChange={handleImageChange}multiple />
                         </div>
                     </div>
-                    <div className="text-gray w-full max-w-[763px] mb-5 mx-auto flex md:py-[17.5px] md:px-4 p-3 rounded-[30px] bg-white placeholder:text-gray outline-none border-light-blue border-[0.5px]">
                             <select
                                 type='text'
                                 name="category"
                                 placeholder='Kategorie'
                             required='required' 
                             value={formData.category} onChange={handleChange}
-                            className="font-bold text-sm leading-custom-xl w-full placeholder:text-gray outline-none">
+                        className="font-bold text-sm leading-custom-xl w-full md:py-[17.5px] md:px-4 p-3 max-w-[763px] text-gray mb-5 mx-auto flex rounded-[30px] placeholder:text-gray cursor-pointer outline-none border-light-blue border-[0.5px]">
                             <option value="" disabled selected>Kategorie</option>
                             <option value="general">general</option>
                             <option value="SC">SC</option>
                             </select>
-                        </div>
                     <div className='max-w-[763px] w-full flex max-sm:flex-col mx-auto sm:gap-5'>
                         <input
                             type="text"
